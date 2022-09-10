@@ -135,3 +135,13 @@ body {
   font-size: 14px;
   color: #888;
 }
+
+@media (min-width: 320px) and (max-width: 1440px) {
+  .card-container {
+    max-width: 400px;
+  }
+  .rating-btn {
+    padding: 18px 24px;
+    font-size: 22px;
+  }
+}
